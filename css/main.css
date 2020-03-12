@@ -36,10 +36,10 @@ Table of Contents:
 ================*/
 /* Fonts */
 .title {
-	font-family: "clarista";
-	/* font-family: "laug"; */
-	font-size: 70px;
-	line-height: 36px;
+  font-family: "clarista";
+  /* font-family: "laug"; */
+  font-size: 70px;
+  line-height: 36px;
   position: relative;
   display: inline-block;
   margin-bottom: 40px;
@@ -47,8 +47,8 @@ Table of Contents:
 
 @media only screen and (min-width: 768px) {
   .title {
-		font-size: 100px;
-		line-height: 40px;
+    font-size: 100px;
+    line-height: 40px;
   }
 }
 
@@ -119,7 +119,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #50c878 ;
+  color: #DBB000;
   outline: none;
   text-decoration: none;
 }
@@ -222,7 +222,7 @@ a {
 }
 
 a:hover {
-  color: #50c878 ;
+  color: #DBB000;
 }
 
 /*!
@@ -426,7 +426,7 @@ a:hover {
 }
 
 .card-body a:hover {
-  color: #50c878 ;
+  color: #DBB000;
 }
 
 .card-image {
@@ -613,16 +613,16 @@ input.search-field {
   width: 100%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .c-hero-banner__image {
     display: none;
   }
 
   .c-hero-banner__image-mobile {
-		display: block;
+    display: block;
     height: 100%;
-	}
-	
+  }
+
   .c-hero-banner__image-mobile img {
     object-fit: cover;
     height: 100%;
@@ -767,7 +767,7 @@ input.search-field {
 
 .nav-link.active,
 .nav-link:hover {
-  color: #50c878 ;
+  color: #DBB000;
 }
 
 .nav-link.active:before,
@@ -775,7 +775,7 @@ input.search-field {
   content: "";
   width: 70%;
   height: 3px;
-  background: #50c878 ;
+  background: #DBB000;
   display: block;
   position: absolute;
   bottom: -2px;
@@ -951,7 +951,7 @@ input.search-field {
 }
 
 .dropdown-menu .dropdown-item:hover {
-  color: #50c878 ;
+  color: #DBB000;
   background: none;
 }
 
@@ -1035,7 +1035,7 @@ input.search-field {
 }
 
 .widget_calendar table a {
-  color: #50c878 ;
+  color: #DBB000;
 }
 
 .widget_calendar table a:hover {
@@ -1056,6 +1056,21 @@ input.search-field {
 /*!
 3. Modules
 ================*/
+.people-img {
+  width: 130px;
+  float: none;
+  display: inline-block;
+  margin-left: 15px;
+  padding: 0;
+}
+
+.people-img img {
+  border-radius: 50%;
+  height: auto;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
 .section {
   padding: 6.25rem 0;
 }
@@ -1076,9 +1091,9 @@ input.search-field {
 }
 
 @media only screen and (max-width: 767px) {
-	.main-hero {
-		height: auto; 
-	}
+  .main-hero {
+    height: auto;
+  }
 }
 
 .breadcrumbs .fa {
@@ -1091,35 +1106,30 @@ input.search-field {
   .love-story:before {
     content: "";
     position: absolute;
-		display: block;
-		left: -15px;
-    width: 25%;
-    height: 300px;
-		background: url(../img/flowers/flower1-2.png) no-repeat;
-		background-size: contain;
-		background-position: center;
+    display: block;
+    left: -50px;
+    width: 165px;
+    height: 75%;
+    background: url(../img/flowers/l-side.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
 	}
+	
+	.love-story:after {
+    content: "";
+    position: absolute;
+    display: block;
+		top: 6.25rem;
+		right: -50px;
+    width: 165px;
+    height: 75%;
+    background: url(../img/flowers/r-side.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
 
   .love-story p {
     width: 70%;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-	.love-story:before {
-    content: "";
-    position: absolute;
-		display: block;
-		left: -15px;
-    width: 300px;
-    height: 300px;
-		background: url(../img/flowers/flower1.png) no-repeat;
-		background-size: contain;
-		background-position: center center;
-	}
-	
-	.love-story p {
-    width: 50%;
   }
 }
 
@@ -1144,45 +1154,24 @@ input.search-field {
 }
 
 @media only screen and (min-width: 768px) {
-  /* .date-section__block:before,
-  .date-section__block:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    width: 239px;
-    height: 231px;
-    top: -12px;
-    background-size: 150px;
-    width: 150px;
-    background-repeat: no-repeat;
-  }
-  .date-section__block:after {
-    background-image: url(../img/leaves-right.png);
-    right: 0;
-  }
-  .date-section__block:before {
-    background-image: url(../img/leaves-left.png);
-	} */
-	
-	.date-section {
+  .date-section {
 		height: 800px;
-		background-image: url('../img/box.png');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: contain;
-	}
+		margin: 30px 0px;
+    background-image: url("../img/box.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
 
-	.date-section .flex-container {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+  .date-section .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-	.date-section .container {
-		padding-top: 223.5px;
-	}
+  .date-section .container {
+    padding-top: 223.5px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -1257,7 +1246,7 @@ input.search-field {
 
 .gallery:before {
   content: "";
-  background: rgba(245, 226, 228, 0.5);
+  background: rgba(109, 148, 142, 0.2);
   display: block;
   width: 100%;
   height: 100%;
@@ -1357,7 +1346,7 @@ input.search-field {
     display: block;
     width: 100%;
     height: 100%;
-    background: url(../img/rsvp-flowers-l.png) no-repeat;
+    background: url(../img/flowers/rsvp-flowers-l.png) no-repeat;
     background-size: contain;
     background-position: left;
     max-width: 400px;
