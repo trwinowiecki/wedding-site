@@ -753,7 +753,7 @@ input.search-field {
   color: #fff;
 }
 
-.nav-link:not(.dropdown-toggle):after {
+.nav-link:not(.last):after {
   content: "";
   display: block;
   width: 3px;
