@@ -1169,9 +1169,9 @@ input.search-field {
     justify-content: center;
   }
 
-  .date-section .container {
-    /* padding-top: 223.5px; */
-  }
+  /* .date-section .container {
+    padding-top: 223.5px;
+  } */
 }
 
 @media only screen and (min-width: 992px) {
