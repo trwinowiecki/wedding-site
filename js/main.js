@@ -214,9 +214,11 @@ Table of Contents:
 			var timeinterval = setInterval(updateClock, 1000);
 		}
 		// set your wedding date here
-		var deadline = 'September 26 2020 18:00:00 GMT+0400';
+		var deadline1 = 'September 26 2020 18:00:00 GMT+0400';
+		var deadline2 = 'April 24 2021 18:00:00 GMT+0400';
 		if (countdown){
-			initializeClock('timer', deadline);
+			initializeClock('timer1', deadline1);
+			initializeClock('timer2', deadline2);
 		}
 	}
 
