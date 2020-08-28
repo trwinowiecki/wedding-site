@@ -1356,7 +1356,7 @@ input.search-field {
   position: relative;
 }
 
-.rsvp:after {
+/* .rsvp:after {
   content: "";
   display: block;
   width: 100%;
@@ -1369,7 +1369,7 @@ input.search-field {
   right: 0;
   bottom: 0;
   z-index: -1;
-}
+} */
 
 @media only screen and (min-width: 768px) {
   .rsvp:before {
